@@ -21,27 +21,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .back{
-  background-image: url('../public//assets/lion-leao-logo-png_seeklogo-344756.png');
+  background-image: url('../public//assets/51QL8W4B7xL.jpg');
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-    visibility: visible;
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-.page-video-container {
-  animation: fadeOut 2s ease-out 5s forwards; /* Fades out after 5 seconds */
-}
-.title{
-  padding-top: 45px;
-  padding-bottom: 40px;
+.hooverImage{
+  background-color: rgba(0, 0, 0, 0.2);
 }
