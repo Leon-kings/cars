@@ -27,3 +27,21 @@ body {
   background-size: cover;
   width: 100%;
 }
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.page-video-container {
+  animation: fadeOut 2s ease-out 5s forwards; /* Fades out after 5 seconds */
+}
+.title{
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
