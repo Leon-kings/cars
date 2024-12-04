@@ -1,4 +1,7 @@
+import Image from "next/image";
+
 // components/Footer.js
+
 export default function Footer() {
   return (
  
@@ -18,7 +21,7 @@ export default function Footer() {
                 </div>
     
                 <div>
-                    <p className="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+                    <h2 className="font-semibold text-gray-800 dark:text-white">QUICK LINK</h2>
     
                     <div className="flex flex-col items-start mt-5 space-y-2">
                         <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Home</p>
@@ -28,10 +31,10 @@ export default function Footer() {
                 </div>
     
                 <div>
-                    <p className="font-semibold text-gray-800 dark:text-white">Industries</p>
+                    <h2 className="font-semibold text-gray-800 dark:text-white">SERVICES</h2>
     
                     <div className="flex flex-col items-start mt-5 space-y-2">
-                        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Retail & E-Commerce</p>
+                        <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"><button className=""></button> Retail & E-Commerce</p>
                         <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Information Technology</p>
                         <p className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500">Finance & Insurance</p>
                     </div>
@@ -42,21 +45,21 @@ export default function Footer() {
             
             <div className="sm:flex sm:items-center sm:justify-between">
                 <div className="flex flex-1 gap-4 hover:cursor-pointer">
-                    <img src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" width="130" height="110" alt="" />
-                    <img src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" width="130" height="110" alt="" />
+                    <Image src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg" width="130" height="110" alt="" />
+                    <Image src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg" width="130" height="110" alt="" />
                 </div>
                 
                 <div className="flex gap-4 hover:cursor-pointer">
-                    <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width="30" height="30" alt="fb" />
-                    <img src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg" width="30" height="30" alt="tw" />
-                    <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
-                    <img src="https://www.svgrepo.com/show/94698/github.svg" className="" width="30" height="30" alt="gt" />
-                    <img src="https://www.svgrepo.com/show/22037/path.svg" width="30" height="30" alt="pn" />
-                    <img src="https://www.svgrepo.com/show/28145/linkedin.svg" width="30" height="30" alt="in" />
-                    <img src="https://www.svgrepo.com/show/22048/dribbble.svg" className="" width="30" height="30" alt="db" />
+                    <Image src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" width="30" height="30" alt="fb" />
+                    <Image src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg" width="30" height="30" alt="tw" />
+                    <Image src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" width="30" height="30" alt="inst" />
+                    <Image src="https://www.svgrepo.com/show/94698/github.svg" className="" width="30" height="30" alt="gt" />
+                    <Image src="https://www.svgrepo.com/show/22037/path.svg" width="30" height="30" alt="pn" />
+                    <Image src="https://www.svgrepo.com/show/28145/linkedin.svg" width="30" height="30" alt="in" />
+                    <Image src="https://www.svgrepo.com/show/22048/dribbble.svg" className="" width="30" height="30" alt="db" />
                 </div>
             </div>
-            <p className="font-sans p-8 text-start md:text-center md:text-lg md:p-4">© 2023 You Company Inc. All rights reserved.</p>
+            <p className="font-sans p-8 text-start md:text-center md:text-lg md:p-4">© 2024 LD Inc. All rights reserved.</p>
         </div>
     </footer>
   );

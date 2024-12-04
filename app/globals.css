@@ -18,10 +18,11 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  background-image: linear-gradient(right,109, 140, 132);
   font-family: Arial, Helvetica, sans-serif;
 }
 .back{
-  background-image: url('../public//assets/51QL8W4B7xL.jpg');
+  background-image: url('https://media.drive.com.au/obj/tx_q:70,rs:auto:1200:675:1/driveau/upload/cms/uploads/bi36meqa62rhbghgdrkh');
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;

@@ -2,8 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['img.pikbest.com'], // Add the hostname here
+    domains: ['img.pikbest.com'],
+    remotePatterns: [
+      {
+        hostname: 'picsum.photos',
+      },
+    ], // Add the hostname here
   },
 };
 
 module.exports = nextConfig;
+

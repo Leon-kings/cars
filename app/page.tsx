@@ -3,7 +3,23 @@ import Footer from "./components/Footer";
 // import Link from "next/link";
 import Image from "next/image";
 import side from '../public/assets/1.svg'
+import Carousel from './components/slider/Slider'
 const Home: React.FC = () => {
+  const DATA = [
+    { image: 'https://picsum.photos/seed/random101/500/500' },
+    { image: 'https://picsum.photos/seed/random102/500/500' },
+    { image: 'https://picsum.photos/seed/random103/500/500' },
+  ];
+  const NEW = [
+    { image: 'https://picsum.photos/seed/random101/500/500' },
+    { image: 'https://picsum.photos/seed/random102/500/500' },
+    { image: 'https://picsum.photos/seed/random103/500/500' },
+  ];
+  const TOOLS = [
+    { image: 'https://picsum.photos/seed/random101/500/500' },
+    { image: 'https://picsum.photos/seed/random102/500/500' },
+    { image: 'https://picsum.photos/seed/random103/500/500' },
+  ]
   return (
   <>
   <div className="container">
@@ -34,7 +50,7 @@ const Home: React.FC = () => {
   </div>
 </div>
 {/*  */}
-<div className="card h-[400px]">
+<div className="card h-[600px]">
 <div
   className="back relative overflow-hidden h-full w-full rounded-lg bg-cover bg-no-repeat p-12 text-center"
 >
@@ -43,7 +59,7 @@ const Home: React.FC = () => {
     >
     <div className="flex h-full items-center justify-center">
       <div className="text-white">
-        <h2 className="mb-4 text-4xl font-semibold">Heading</h2>
+        <h2 className="mb-4 text-4xl font-semibold">LD</h2>
         <h4 className="mb-6 text-xl font-semibold">Subheading</h4>
         <button
           type="button"
@@ -57,6 +73,31 @@ const Home: React.FC = () => {
   </div>
 </div>
 </div>
+<div className="card">
+<main className="flex min-h-screen w-full flex-col items-center justify-center text-center">
+  <div className="grid grid-cols-3 gap-4">
+    <div className="first">
+      <h2 className="text-center">NEW FEATURED CARS</h2>
+      <Carousel data={DATA} />
+      </div>
+      {/*  */}
+      <div className="first">
+        <h2 className="text-center">NEW UPCOMMING CARS</h2>
+      <Carousel data={NEW} />
+      </div>
+      {/*  */}
+      <div className="first">
+      <h2 className="text-center">NEW FEATURED TOOLKITS</h2>
+      <Carousel data={TOOLS} />
+      </div>
+      {/*  */}
+      </div>
+    </main>
+</div>
+
+{/*  */}
+<br />
+{/*  */}
 {/* footer */}
 <div className="card">
   <Footer/>
